@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+    ><link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    
+   <div class="container1">
+    <div class="header">
+        <img class="logo" src="img/rioestilizado.png">
+        <h1>Rio de Janeiro - Cidade Maravilhosa</h1>
+    </div>
+    <div class="navbar1">
+         <ul>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="quemsomos.html">Quem somos</a></li>
+           <li><a href="pontosturisticos.html">Pontos Turisticos</a></li>
+           <li><a href="contato.html">Contato</a></li>
+           <li><a href="faleconosco.html">Fale conosco</a></li>
+         </ul>
+    </div>
+    <div method="get" action="."  class="content row g-3 ">
+      <legend class="titulo-faleconosco">Fale Conosco</legend>
+    <form>
+      <div class="row">
+        <div class="col-md-6 faleconosco ">
+          <label for="inputNome" class="form-label">Nome</label>   
+          <input class="form-control" name="nome" type="text" maxlength="50" required placeholder="Digite seu nome completo" /></input><br />
+        </div>
+        </div>
+
+      <div class="row">
+      <div class="col-md-6 faleconosco ">
+        <label for="inputAddress2" class="form-label">Rua</label>   
+        <input class="form-control" name="rua" type="text" id="rua" /></input><br />
+      </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3 faleconosco ">
+          <label for="inputNumero" class="form-label">Número</label>   
+          <input class="form-control" name="numero" type="text" id="numero"/></input><br />
+        </div>
+        <div class="col-md-3">
+          <label for="inputComplemento" class="form-label">Complemento</label>   
+          <input class="form-control" name="Complemento" type="text" id="Complemento" placeholder="casa,apartamento..." /></input><br />
+        </div>
+        </div>
+
+      <div class="row">
+      <div class="col-md-6 faleconosco">
+        <label for="inputCity" class="form-label">Cidade</label>
+        <input name="cidade" type="text" class="form-control" id="cidade" > <br />
+      </div>
+      </div>
+
+      <div class="row">
+      <div class="col-md-6 faleconosco">
+        <label for="inputBairro" class="form-label">Bairro</label>
+        <input class="form-control" name="bairro" type="text" id="bairro" /></input><br />
+      </div>
+      </div>
+
+      <div class="row">
+      <div class="col-md-2 faleconosco">
+        <label for="inputEstado" class="form-label">Estado</label>
+        <input class="form-control" name="uf" type="text" id="uf" /></input> <br />
+      </div>
+
+      <div class="col-md-2">
+        <label for="inputIbge" class="form-label">IBGE</label>
+        <input class="form-control" name="ibge" type="text" id="ibge" /></input><br />
+      </div>
+    
+      <div class="col-md-2">
+        <label for="inputZip" class="form-label">Cep</label>
+        <input class="form-control" name="cep" type="text" id="cep" value=""  maxlength="9"
+             onblur="pesquisacep(this.value);" /></input><br />
+      </div>
+      
+      <div class="col-md-6 faleconosco">
+          <label for="inputBairro" class="form-label">Informe o Assunto:</label>
+          <select class="form-control cx-assunto" name="bairro" type="text" id="assunto">
+           <option>Selecione o Assunto</option>
+           <option>Elogios</option>
+           <option>Sugestôes</option>
+           <option>Reclamações</option>
+           <option>Outros</option>
+          </select>
+      </div>
+      <div class="col-md-6 faleconosco">
+        <label for="inputMensagem" class="form-label texto">Deixa a sua Mensagem:</label>
+        <textarea class="form-control caixa-texto" name="mensagem" type="text" id="recado" rows="5" cols="40" required maxlength="100" placeholder="Deixa sua Mensagem..."></textarea>
+        <input class="botao"type="submit"value="Enviar">
+        <input class="botao" type="reset"value="Limpar"> 
+      </div> 
+      </div>
+      
+
+      
+        
+       
+    </form>
+   </div>
+        
+   <div class="footer">
+    <adress>Construida em 24 de agosto de 2023 por Fernando Saraiva</adress>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,224 @@
+body{
+    margin: 0%;
+    padding:0;
+    text-align: center;
+    background-color:#d8a05f;
+    background-image: url(../img/rio.jpg);
+    background-size: 100%;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
+    
+}
+
+
+.container1{
+    width: 60%;
+    text-align: justify;
+    border: 1px solid #676767;
+    background-color: bisque;
+    margin-left: 19%;
+    margin-top: 3.5%;
+}
+
+.header{
+    position: relative;
+    margin-bottom: 5.9%;
+    
+}
+
+.header h1{
+    text-align: center;
+    margin-right: 10%;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 1%;   
+   
+}
+
+.navbar1{
+    background-color: beige;
+    color: black;
+    margin-top: 8%;
+   
+    
+}
+
+.navbar1 li{
+    
+    display: inline;
+    padding: 0 1% 0 6%;
+    margin-left: 2%;
+
+}
+
+.navbar1 li a {
+    text-decoration: none;
+    color:black;
+    font-size:18px;
+    
+
+}
+
+.navbar1 li a:hover, a:active {
+    text-decoration: none;
+    color:white;
+    background-color: #ffdba9;
+
+}
+
+
+
+.content{
+   font-size: 18px;
+   padding: 1%;
+
+}
+
+.content h2{
+    text-align: center;
+}
+
+.content p {
+    text-indent: 5%;
+}
+
+
+
+.footer{
+    background-color: beige;
+    color: black;
+    text-align: right;
+    font-weight: bolder;
+}
+
+
+.autor{
+   text-align: right;
+}
+
+
+.logo{
+    width: 10%;
+    float: left;
+
+}
+
+
+.img-home{
+    width: 150px;
+    height: 150 px;
+    border-radius: 30%;
+    padding: 1%;
+}
+
+
+.img-galeria{
+    width:200px;
+    height:200px;
+    border-radius: 10%;
+}
+
+.pt{
+    margin-bottom: 2%;
+}
+
+
+.galeria{
+    display: inline-block;
+    padding: 0 6.0% 0 6%;
+    margin-left: 15%;
+}
+
+.galeria1{
+    text-decoration: none;
+}
+
+
+
+figcaption{
+    text-align: center;
+    
+}
+
+
+figcaption, a{
+    text-decoration: none;
+    color:black;
+}
+
+
+
+.img-carrosel1{
+    width: 40%;
+    margin-left: 30% ;
+}
+
+.zap-local{
+    float: right;
+    margin-right: 15%;
+    margin-top: 10%;
+    
+}
+
+.zap-texto{
+    text-decoration: none;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.grupoform{
+    margin-left: 25%;
+    margin-top: 2%;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.grupoform input, select, textarea{
+    background-color: #dddddd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    width: 60%;
+    margin-bottom: 2%;
+    
+}
+
+.grupoform button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.grupoform input:hover, input:focus, select:hover, select:focus, textarea:hover, textarea:focus{
+    background-color: white;
+    color:black;
+    font-weight: bold;
+
+
+}
+
+.caixa-texto{
+    resize: none;
+    width: 77%;
+    margin-top: 1%;
+}
+
+.cx-assunto{
+    width: 60.5%;
+}
+
+.titulo-faleconosco{
+    margin-left: 47%;
+}
+
+.faleconosco{
+    margin-left: 30%;
+    
+}
+
+.texto{
+    margin-top: 2%;
+}
+
+.botao{
+    margin-top: 3%;
+}
